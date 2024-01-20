@@ -76,11 +76,14 @@ span {
 .card__quote {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    height: 15rem;
+    width: 40rem;
+    justify-content: center;
+    align-items: center;
     color: #999999;
     padding: 3rem;
-    row-gap: 1.5rem;
 }
+
 .quote__phrase {
     font-size: 1.1rem;
     text-align: center;
@@ -89,8 +92,16 @@ span {
 .quote__author {
     font-size: 0.9rem;
     letter-spacing: 1px;
+    height: 40px;
 }
 
+.quote__author::after {
+    position: absolute;
+    display: block;
+    content: "”";
+    font-size: 6rem;
+    right: 3rem;
+}
 .main__btn {
     display: block;
     border: 2px solid white;
