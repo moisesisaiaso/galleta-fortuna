@@ -6,9 +6,7 @@ export const RandomPhrase = ({ quote }) => {
             <div className={style.card__quote}>
                 <p className={style.quote__phrase}>{phrase}</p>
 
-                <p className={style.quote__author}>
-                    <span>{author}</span>
-                </p>
+                <p className={style.quote__author}></p>
             </div>
         </>
     );
