@@ -78,19 +78,17 @@ span {
     flex-direction: column;
     flex-wrap: wrap;
     color: #999999;
-    padding: 2rem;
+    padding: 3rem;
     row-gap: 1.5rem;
 }
 .quote__phrase {
     font-size: 1rem;
     text-align: center;
     letter-spacing: 1px;
-    padding: 0 2rem;
 }
 .quote__author {
     font-size: 0.9rem;
     letter-spacing: 1px;
-    padding: 0 2rem;
 }
 
 .main__btn {
